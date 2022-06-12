@@ -24,8 +24,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!-- <link href="assets/css/slideshow.css" rel="stylesheet"> -->
 
   <!-- =======================================================
   * Template Name: iPortfolio - v3.7.0
@@ -125,127 +127,193 @@
       </div>
     </section><!-- End About Section -->
 
-        <!-- ======= Testimonials Section ======= -->
-        <section id="recommendations" class="testimonials section-bg">
-          <div class="container">
-          
-            <div class="section-title">
-              <h2>Recommendations</h2>
-              <p>Here are recommendations from people I have worked with closely in my career. The same can also be found on my
-                LinkedIn page</p>
-            </div>
-          
-            <link rel="stylesheet" href="assets/css/slideshow.css">
-            <div>
-          
-          
-              <div class="w3-content w3-display-container">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Ken.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Vandana.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Kun.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Anup.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Keri.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Divya.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Romit.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Hocheol.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Brunda.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Pritpal.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Divya.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Shahrukh.PNG">
-                <img class="mySlides" src="assets/img/testimonials/Recommendation_Mouli.PNG">
-                <!-- <div class="w3-center w3-display-bottommiddle" style="width:100%">
-                  <div class="w3-button" onclick="plusDivs(-1)">&#10094;</div>
-                  <div class="w3-button" onclick="plusDivs(1)">&#10095;</div>
-                </div> -->
-              </div>
-          
-            </div>
-          
-            <script>
+ <!-- ======= Testimonials Section ======= -->
+ <section id="recommendations" class="testimonials section-bg">
+  <div class="container">
 
-              var myIndex = 0;
-              carousel();
+    <div class="section-title">
+      <h2>Recommendations</h2>
+      <p>Here are recommendations from people I've worked closely with, during my career. The same can be found on my LinkedIn profile as well.</p>
+    </div>
 
-              function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                  x[i].style.display = "none";
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 5000); // Change image every 2 seconds
-              }
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
 
-              function plusDivs(n) {
-                carousel(slideIndex += n);
-              }
-              </script>  
-            <!-- <div class="testimonials-slider swiper"> -->
-              <!--</div> data-aos="fade-up" data-aos-delay="100">-->
-              <!-- <div class="swiper-wrapper"> -->
-    
-                <!-- <div class="swiper-slide"> -->
-                  <!-- <div class="testimonial-item">data-aos="fade-up"> -->
-                    <!-- <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p> -->
-                    <!-- <img src="assets/img/testimonials/Recommendation_Ken.PNG" class="testimonial-img" alt=""> -->
-                    <!-- <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4> -->
-                  <!-- </div> -->
-                <!-- </div> -->
-                <!-- End testimonial item -->
-
-                <!-- <div class="swiper-slide"> -->
-                  <!-- <div class="testimonial-item">data-aos="fade-up"> -->
-                    <!-- <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p> -->
-                    <!-- <img src="assets/img/testimonials/Recommendation_Vandana.PNG" class="testimonial-img" alt=""> -->
-                    <!-- <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4> -->
-                  <!-- </div> -->
-                <!-- </div>End testimonial item -->
-    
-                <!-- <div class="swiper-slide">
-                  <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
-                  </div>
-                </div>End testimonial item -->
-    
-                <!-- <div class="swiper-slide">
-                  <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
-                  </div>
-                </div>End testimonial item -->
-
-    
-              <!-- </div> -->
-              <!-- <div class="swiper-pagination"></div> -->
-            </div>
-    
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana and I worked together as a two-person team on a research project concerning the merging of data from medical ontologies, and deriving a new kind of word embedding for terms in the ontologies. We worked together on conceptual aspects, on programming, on devising and performing performance tests, and on writing a conference submission describing our work. Throughout I was impressed by Sanjana's initiative, skills, creativity, and teamwork. Her work on combining ontologies using ontology keyword queries as a first step, facility with Python and Github, and writing the majority of the submission manuscript were particularly important. I was also impressed by Sanjana's presentations and contributions to discussions, for a journal club we were both in, studying neural nets for NLP. Sanjana also took initiative in organizing events and activities that helped our larger organization at IBM, before and during the Covid-19 pandemic. This played an important role in keeping our group coherent and sane. It was a pleasure to work with Sanjana, I strongly recommend her.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/ken-header.jpg" class="testimonial-img" alt="">
           </div>
-        </section><!-- End Testimonials Section -->
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana worked on my team as a Software Engineering Researcher at IBM Almaden. I have found Sanjana to have a very strong work ethic which is something I value above everything else. Sanjana is smart, sharp, quick learner and very professional. She works well with people, eager to take on hard problems, follows-through on issues and resolves them. She can multi-task very well and I have seen her juggle many projects and problems while on my team. She is a pleasure to work with. She is moving to another role as a Data Scientist in IBM India. I wish her the very best in all her future endeavors and hope our paths cross again. She will do well in any team she joins and they are lucky to have her. Best Wishes Sanjana!!!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/vandana-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              I was Sanjana’s mentor when she worked at IBM Almaden Research Center. We have regular lunch mentoring sessions which we usually discuss career planning, tips to help her grow internal and external eminence, etc. She always prepared for each session with well-thought and articulated questions. I really enjoyed the opportunity to interact with such a young, energetic and dedicated research software engineer. I was always inspired by her capability to connect with members across teams and organizations, her enthusiasm to share her expertise in NLP and help others in many ways. I hope she will enjoy her next step of career in India. I highly recommend her! 
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/kun-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana is amazing at what she does especially in the domain of NLU. She has contributed to the NLU-related problem statement at Fi. Her solutions are directly integrated into the product, creating a better user experience for our users. She's a very quick learner and implements solutions efficiently which was evident by how she learned graph-based modeling and used it in building the solution.
+
+From a cultural perspective, she is an amazing fit for our team. She takes a ton of initiatives to improve the existing process, share feedback, and mentor those around her. She's always available for helping and brainstorming problem statements.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/romit-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana is a great collaborator, innovator, and technical guru. I worked with her on a Data Science team at IBM creating solutions in cloud computing management. Sanjana not only has a deep technical knowledge but also the unique talent of understanding and being able to push product vision. I was continually impressed by her elegant solutions and knowledge of new technologies and academic research. Sanjana was the biggest driver of innovation in our team. She mentored us in patent writing and encouraged team members to explore many invention ideas. Sanjana is an excellent team member and exceptional Data Scientist, and I would be happy to work with her anytime.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/keri-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana and I were part of the same team which was focussed on delivering novel health informatics solutions to the Watson Health Imaging business unit at IBM. We worked very closely to come up with a solution to adapt an existing product to work on EMR in French. 
+Right from the get-go, I realized that Sanjana was a fast learner. She asked the right questions and if something wasn't clear she made sure she had the information that she needed. Her documentation skills, which is something I value very much in a researcher, is second to none. She was on top of her deadlines as well. She is an excellent team player as well and was always there if I needed help or needed to clarify something with her. 
+She will be a valuable asset no matter where she goes. It was real pleasure to work with her. 
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/anup-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana and I worked in the same group and collaborated on a project involving crowdsourcing and Semantic Role Labeling. Her knowledge of NLP and top software engineering skills became apparent during this collaboration. She is eager to share her knowledge. I mentored Sanjana on patenting at IBM and its process. She was a quick learner and went on to officially become an inventor by filing her first patent. She is curious, engaged and creative so I expect her to remain active as an inventor. In addition, Sanjana invests time and effort participating and leading activities that promote community building, team spirit and technical exchanges. I highly recommend her.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/dulce-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+                
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              I was impressed by Sanjana's ability to handle any situation calmly and patiently, even in the toughest situations. She has proven great experience in the projects that she handles. Her ability to convert the ideas into innovations is truly amazing.She is a great mentor and when it comes to sharing the knowledge, she is a great presenter.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/brunda-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana is a young, energetic researcher and engineer. I got to know her while we're in (two) same group in IBM Research. She is curious and likes to learn. I enjoyed many technical discussion we had for various problems. She is smart and very motivated. Also, she is a great communicator. I am impressed by her ability to connect people in various departments and make things happen through collaborations. No doubt that she will make positive impacts on her new role in IBM. All the best, Sanjana. 
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/hocheol-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              I met Sanjana as part of the Developer JumpStart program at IBM. I was very impressed by her leadership skills, curiosity, and interest to learn new things early in her career at IBM. She is a knowledgeable data scientist and a great speaker. It's a joy to be around Sanjana, and I highly recommend her. 
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/ana-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana, you have been truly amazing at all you do, you are excellence beyond par, I like your growth mindset, proactive approach and attitude to go beyond the job and perform in multiple initiatives also build on your technical vitality 
+I was truly amazed at your ability and skill to convert ideas and put them into patents so very quickly
+That you have been on lecture series on patenting and multiple topics on hyperscalers speaks a lot on your abilities
+You have added quality to everything we have touched and deserve this award truly and many more to come your way
+Your MBA degree will further enhance and broaden your perspective and make you a more proficient knowledge specialist.
+Good Luck !!
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/pritpal-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana is a highly dedicated and proficient senior data scientist. She is a very quick learner and well versed in model development for supporting diverse features in multi-cloud management platform. Her application of model building skills is unique and she has researched and built high performing cost optimization models that works well in production. In addition, she is a solid contributor of patents and is a role model for others in the team to pursue. Only with her guidance and support could I submit my first invention work. Being a high end team player she stands out and plays a major role in case of any presentations and infonaut sessions to wider and delivery teams. She always proved to be a super enthusiastic person with ability to pick up any task and deliver with high quality and on time. One such example is her contribution in the MLOPS work including model customization, model serving and monitoring. Data Science being a fast growing and demanding industry sector, I am confident that person like Sanjana will be able to satisfy the needs with her strategic decision-making and technology skills and foster the growth of the project and the organization
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/divya-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              I worked with Sanjana developing a real-time incident resolution system for AIOps. Sanjana has great expertise in the subject matter of NLP and was always willing to help other team members beyond her responsibilities, which proved to be a great catalyst in the success of our project. Moreover, she is well organized, diligent, and a fast learner. All these attributes were critical in meeting the deadlines and KPIs.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/shahrukh-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Sanjana is future vision NLP enthusiastic and innovative senior data scientist. She has great leadership initiative and quick learning abilities to take up any challenge provide agile solutions at scale, she will definitely brings lots of innovative AI/ML driven solutions with her immense knowledge in area of AI/ ML.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/mouli-header.jpg" class="testimonial-img" alt="">
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End Testimonials Section -->
 
             <!-- ======= Portfolio Section ======= -->
     <section id="career" class="portfolio section-bg">
