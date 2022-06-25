@@ -79,7 +79,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Diagnostive support on medical records and chest X-rays</h2>
+          <h2>A personal financial assistant that knows you so well</h2>
           <ol>
             <li><a href="../../index.html">Home</a></li>
             <li>Portfoio Details</li>
@@ -96,11 +96,13 @@
               <h2>Project Overview</h2>
               <p>
                 <ul>
-                  <li>I worked on a set of interlinked modules which work together to provide diagnostic support to respiratory diseases</li> 
-                  <li>The support on medical reports involved negation detection using semantic rules to find out the presence or absence of a medical concept and NLP modeling for summarization of the identified concepts</li>
-                  <li>This also involved having lucene indices for the text, topic identification and boundary detection for efficient reporting</li>
-                  <li>The computer vision part was looking to predict anomalous areas compared to a healthy scan, which can be found in cases such as pulmonary embolism. This part was more of a back up support than full ownership</li>
-                  <li>Other than the ML parts, there was also a fair amount of HIPAA training and PII sanity checks involved in this project</li>
+                  <li>This was the first time a financial / banking app in India had a search feature allowing one to treat the app like their personal financial assistant</li> 
+                  <li>It was exciting to work on this product feature, learning user behaviour in terms of engagment patterns, their most common intents, their preference for customer care and so on</li>
+                  <li>My specific role here was to improve relevance, provide an evolution path for search and predict periodic search queries to suggest to users. The feature outcomes were user value, user engagement and user retention</li>
+                  <li>While I have been involved in engineering and research processes at various stages of an ML product / service lifecycle in other roles, this project provided consistent and comprehensive ownership of almost every step in the process</li>
+                  <li>This was majorly due to the lack of priors (product or literature) for this problem & solution pair and also the age of the company and product being new</li>
+                  <li>So everything from metrics definition and data generation to modeling and testing infrastructure choices were parts of brining these features to life</li>
+                  <li>As part of the research on this project, I discovered the versatility and utility of graph DBs for dynamic ML usecases and I became an advocate of this across more projects and usecases</li>
                 </ul>
               </p>
             </div>
@@ -118,19 +120,19 @@
   
 	  <div class="row">
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-	      <div class="icon"><i class="bi bi-safe-fill"></i></div>
-	      <h4 class="title">PII / sensitive data handling</h4>
-	      <p class="description">The HIPAA training and framework for this project, put into practice for me the sensitivity and value of data and how using it is a privilege. And that privilege comes with responsibility of ensuring outcome out of it's use</p>
+	      <div class="icon"><i class="bi bi-sliders"></i></div>
+	      <h4 class="title">Balancing user utility and business metrics</h4>
+	      <p class="description">It's tempting to ship out the fanciest ML product there is, but does it really add value to users in a way easily consumable by a majority of them? And are these values also priortized by the business metrics we want to focus on? These are some of the questions I learnt to answer while formulating the plan, timeline and priortization for these features</p>
 	    </div>
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-	      <div class="icon"><i class="bi bi-rulers"></i></div>
-	      <h4 class="title">Elastic indices</h4>
-	      <p class="description">Since medical records can go back several years for many patients and take a long time to process, the use of lucene indices helped speed up processing to enable real time outcomes</p>
+	      <div class="icon"><i class="bi bi-boxes"></i></div>
+	      <h4 class="title">Graph Databases</h4>
+	      <p class="description">It was a great learning opportunity to try out the class of hierarchical, multi directional and rich relation representations that graph databases provide. NeptuneDB was the final choice for it's managed service nature and suitability with our infra stack. And this became an accelerator for us to provide rich features even in the absence of extensive ground truth to establish these relations</p>
 	    </div>
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-		<div class="icon"><i class="bi bi-sliders"></i></div>
-		<h4 class="title">Mission critical product metrics</h4>
-		<p class="description">Watson Health being a critical client facing project came with some high expectations in terms of the model metrics and performance. Unlike optimizing metrics just to look good on paper, this project involved optimizing them for mission critical real world use</p>
+		<div class="icon"><i class="bi bi-cloud-haze2-fill"></i></div>
+		<h4 class="title">Deployment optimization for environment and speed</h4>
+		<p class="description">Being in a flat structure with non-modularized roles, I got to learn end to end optimizations involving gRPC vs REST (FastAPI), protocol buffers and security related conservativeness on the graph DB</p>
 	      </div>
 	</div>
     </section>
