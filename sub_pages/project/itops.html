@@ -79,7 +79,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Diagnostive support on medical records and chest X-rays</h2>
+          <h2>Detecting which code change resulted in a reported incident, in near real time</h2>
           <ol>
             <li><a href="../../index.html">Home</a></li>
             <li>Portfoio Details</li>
@@ -96,11 +96,12 @@
               <h2>Project Overview</h2>
               <p>
                 <ul>
-                  <li>Acting as my bridge between business units</li> 
-                  <li>The support on medical reports involved negation detection using semantic rules to find out the presence or absence of a medical concept and NLP modeling for summarization of the identified concepts</li>
-                  <li>This also involved having lucene indices for the text, topic identification and boundary detection for efficient reporting</li>
-                  <li>The computer vision part was looking to predict anomalous areas compared to a healthy scan, which can be found in cases such as pulmonary embolism. This part was more of a back up support than full ownership</li>
-                  <li>Other than the ML parts, there was also a fair amount of HIPAA training and PII sanity checks involved in this project</li>
+                  <li>I started this project while I was still with IBM Research business unit and exploring moving into a product business unit. This project acted as my bridge between business units and my chance to show how I can bring the best of both worlds</li> 
+                  <li>This project was under the CTO team in the product business unit, which is now part of Kyndryl and this was a highly impactful project, which would be prevent high costs incurred from customer attrition due to the incidents</li>
+                  <li>The idea is to identify and flag possible incident causing code changes based on past patterns and also once an incident is reported, identify and rank within a few minutes the possible code changes that could have cause this</li>
+                  <li>The team consisted of 3 technical members (including me) and one domain expert on incident codes and reporting flows and we were each from different countries and timezones.</li>
+                  <li>I took ownership of the multi level similarity detection module between the code change description and incident description, computing more derived features for the combined model and drafting & presenting the disclosure submission for this idea, which is now a patent submission with USPTO</li>
+                  <li>For both the internal use and client use of this system, we had to present its working along with metrics, savings potentials and real time efficiency to several groups, as this was impactful to operational efficiency to many entities</li>
                 </ul>
               </p>
             </div>
@@ -120,17 +121,17 @@
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
 	      <div class="icon"><i class="bi bi-puzzle-fill"></i></div>
 	      <h4 class="title">The bridge between business units</h4>
-	      <p class="description">The HIPAA training and framework for this project, put into practice for me the sensitivity and value of data and how using it is a privilege. And that privilege comes with responsibility of ensuring outcome out of it's use</p>
+	      <p class="description">While I had also worked on ML going into product at IBM Research, this was my first time experience with using ML for a use case with high monetization and cost saving abilities</p>
 	    </div>
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
 	      <div class="icon"><i class="bi bi-speedometer"></i></div>
 	      <h4 class="title">Real time impact</h4>
-	      <p class="description">Risk based cost mitigation</p>
+	      <p class="description">The risk based cost mitigation this system provided required to be implemented in near real time. Since the data was huge, we had to have a multi filtering system including clustering to group and rank several code changes together, before dividing and conquering</p>
 	    </div>
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
 		<div class="icon"><i class="bi bi-person-video3"></i></div>
 		<h4 class="title">Selling the solution</h4>
-		<p class="description">Keeping metrics ready for consuming</p>
+		<p class="description">With the amount of interest and visiblity into this project, came high demands on metrics like top n ranking accuracy, throughput, latency and security as well. We worked to improve these and setup and demonstrate this functionality on client systems for those who could not move / share information about their code out of their system</p>
 	      </div>
 	</div>
     </section>
