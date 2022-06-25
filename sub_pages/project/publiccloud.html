@@ -79,7 +79,7 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Diagnostive support on medical records and chest X-rays</h2>
+          <h2>Multicloud workload planning and savings plan recommendation</h2>
           <ol>
             <li><a href="../../index.html">Home</a></li>
             <li>Portfoio Details</li>
@@ -96,11 +96,13 @@
               <h2>Project Overview</h2>
               <p>
                 <ul>
-                  <li>I worked on a set of interlinked modules which work together to provide diagnostic support to respiratory diseases</li> 
-                  <li>The support on medical reports involved negation detection using semantic rules to find out the presence or absence of a medical concept and NLP modeling for summarization of the identified concepts</li>
-                  <li>This also involved having lucene indices for the text, topic identification and boundary detection for efficient reporting</li>
-                  <li>The computer vision part was looking to predict anomalous areas compared to a healthy scan, which can be found in cases such as pulmonary embolism. This part was more of a back up support than full ownership</li>
-                  <li>Other than the ML parts, there was also a fair amount of HIPAA training and PII sanity checks involved in this project</li>
+                  <li>Huge multinational companies have huger cloud infrastructure across departments, locations and cost tiers. This becomes extremly challenging to monitor and control costs, risks and workloads in a centralized way</li> 
+                  <li>This is where our models come in to profile the assets (assets could be VMs, DBs, private IPs and so on) based on usage percent, frequency, periodicity and more</li>
+                  <li>And based on the profiling, assign a savings plan (even though AWS has an offering called savings plan, the term here is meant for any plan one can commit to, with a cloud provider that provides savings)</li>
+                  <li>And based on it's past usage trend we forecast it's future workload and help plan tiers and which other assets it should be grouped with to be in a savings plan together</li>
+                  <li>Additionally risk assessment of assets based on OS version, other known exploits etc. and identifying abandoned assets based on their name is done</li>
+                  <li>And these recommendations go across cloud providers - if a current asset is not profiled under it's current X tier in cloud A, and is instead profiled under Y tier in cloud B and the prediction seems to offer more savings, that's recommended to the user</li>
+                  <li>And these recommendations are clubbed using forecasting and profiling to go across entire workloads for a region or business unit based on the customer's filtering criteria</li>
                 </ul>
               </p>
             </div>
@@ -120,17 +122,17 @@
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
 	      <div class="icon"><i class="bi bi-people-fill"></i></div>
 	      <h4 class="title">Technical Leadership</h4>
-	      <p class="description">The HIPAA training and framework for this project, put into practice for me the sensitivity and value of data and how using it is a privilege. And that privilege comes with responsibility of ensuring outcome out of it's use</p>
+	      <p class="description">In addition to taking the technical directions for the project as an individual contributor, I also had to align other individual contributors with thier modules and take care of integration plan / architecture for all the individual modules</p>
 	    </div>
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
 	      <div class="icon"><i class="bi bi-currency-exchange"></i></div>
-	      <h4 class="title">ML for cost savings</h4>
-	      <p class="description">Since medical records can go back several years for many patients and take a long time to process, the use of lucene indices helped speed up processing to enable real time outcomes</p>
+	      <h4 class="title">Generalizable multi year cost savings</h4>
+	      <p class="description">In addition to giving insights on their current infrastructure, this cost saving recommendation system came with a migration plan and workload plan on which alternative instances / cloud offerings would benefit them more. For this I gained certifications across all major cloud providers to be able to apply domain knowledge to draw parallels between their current infrastructure and a better infrastructure out there</p>
 	    </div>
 	    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
 		<div class="icon"><i class="bi bi-diagram-2-fill"></i></div>
 		<h4 class="title">Integrating models into a suite of solutions</h4>
-		<p class="description">Watson Health being a critical client facing project came with some high expectations in terms of the model metrics and performance. Unlike optimizing metrics just to look good on paper, this project involved optimizing them for mission critical real world use</p>
+		<p class="description">Initially each one of us was working on individual modules for each client for each one of their clouds. One of the major visions I was tasked with in this technical leadership role was to architect an ML system brining these modules together, that can apply across consumers and clouds. This was challenging yet very rewarding and satisfactory to take up and accomplish</p>
 	      </div>
 	</div>
     </section>
